@@ -11,3 +11,10 @@ group_by(Manufacturing_Lot) %>%
   summarize(Mean = mean(PSI, na.rm = TRUE),Median=median(PSI, na.rm = TRUE),Variance=var(PSI, na.rm = TRUE),SD=sd(PSI, na.rm = TRUE))
 print(lot_summary)
 
+
+t.test(Suspension$PSI, mu=1500)
+
+t.test(subset(Suspension$PSI,Suspension$Manufacturing_Lot== "Lot1"), mu=1500)
+t.test(subset(Suspension$PSI,Suspension$Manufacturing_Lot== "Lot2"), mu=1500) 
+t.test(subset(Suspension$PSI,Suspension$Manufacturing_Lot== "Lot3"), mu=1500) 
+
