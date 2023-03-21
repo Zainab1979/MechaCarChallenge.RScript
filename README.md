@@ -22,4 +22,14 @@ The lot3 in the manufacturing lots is not meeting the qualification as it exceed
 In total Variance 62.29356 and it meet the qualification. <br> 
  
 ## T-Tests on Suspension Coils. <br>
-![lm_output](https://github.com/Zainab1979/MechaCarChallenge.RScript/blob/847b88511ccfd535b34e4cf6718873cc1f5422ce/result_T_Test.png)
+![lm_output](https://github.com/Zainab1979/MechaCarChallenge.RScript/blob/847b88511ccfd535b34e4cf6718873cc1f5422ce/result_T_Test.png)  <br>
+The result above shows the T value is small that's because the difference between the mean of the data and the population mean is small.  <br>
+
+![lm_output](https://github.com/Zainab1979/MechaCarChallenge.RScript/blob/5c3f8c8d9d6166213521f476b31cec828f82acbf/T_test_lot1.png)
+The result above shows the T value is zero that's because the difference between the mean of the data and the population mean is zero.  <br>
+
+![lm_output](https://github.com/Zainab1979/MechaCarChallenge.RScript/blob/5c3f8c8d9d6166213521f476b31cec828f82acbf/T_test_lot2.png)
+The result above shows the T value is small that's because the difference between the mean of the data and the population mean is small.  <br>
+
+![lm_output](https://github.com/Zainab1979/MechaCarChallenge.RScript/blob/5c3f8c8d9d6166213521f476b31cec828f82acbf/T_test_lot3.png)
+The result above shows the T value is larger that's because the difference between the mean of the data and the population mean is relatively large.  <br>
