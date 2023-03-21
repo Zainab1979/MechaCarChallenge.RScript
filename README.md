@@ -21,3 +21,5 @@ The screenshoot shows the statistic (Mean Median Variance SD) of PSI data in all
 The lot3 in the manufacturing lots is not meeting the qualification as it exceed the 100 pound by 70.
 In total Variance 62.29356 and it meet the qualification. <br> 
  
+## T-Tests on Suspension Coils. <br>
+![lm_output](https://github.com/Zainab1979/MechaCarChallenge.RScript/blob/847b88511ccfd535b34e4cf6718873cc1f5422ce/result_T_Test.png)
