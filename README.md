@@ -32,4 +32,13 @@ The result above shows the T value is zero that's because the difference between
 The result above shows the T value is small that's because the difference between the mean of the data and the population mean is small.  <br>
 
 ![lm_output](https://github.com/Zainab1979/MechaCarChallenge.RScript/blob/5c3f8c8d9d6166213521f476b31cec828f82acbf/T_test_lot3.png)
+
 The result above shows the T value is larger that's because the difference between the mean of the data and the population mean is relatively large.  <br>
+
+## Study Design: MechaCar vs Competition. <br>
+We can design a test to compare MechaCar agnist compation in following key metrics:
+ fuel efficiency, horse power and maximum speed . <br>
+The null hypothesisin our macha car  maximum speed,fuel efficiency and horse power  is less than or equal to competitor.<br>
+The alternative hypothesis is MechaCar as higher maximum speed,fuel efficiency and horse power. <br>
+We can use the two sample T-test to compare the metrics' means of a sample from MechaCar and a sample from competitor.<br>
+We need to collect fuel efficiency, horse power, maximum speed data using standard sensors during various trips of mechacar and competitor cars.<br>
