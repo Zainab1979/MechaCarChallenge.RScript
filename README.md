@@ -36,9 +36,10 @@ The result above shows the T value is small that's because the difference betwee
 The result above shows the T value is larger that's because the difference between the mean of the data and the population mean is relatively large.  <br>
 
 ## Study Design: MechaCar vs Competition. <br>
-We can design a test to compare MechaCar agnist compation in following key metrics:
+We can design a test to compare MechaCar against competition in following key metrics: 
  fuel efficiency, horse power and maximum speed . <br>
-The null hypothesisin our macha car  maximum speed,fuel efficiency and horse power  is less than or equal to competitor.<br>
-The alternative hypothesis is MechaCar as higher maximum speed,fuel efficiency and horse power. <br>
+The null hypothesis : our MechaCar   maximum speed, fuel efficiency and horse power  is less than or equal to competitor.<br>
+The alternative hypothesis : MechaCar has higher maximum speed, fuel efficiency and horse power than competitor <br>
 We can use the two sample T-test to compare the metrics' means of a sample from MechaCar and a sample from competitor.<br>
-We need to collect fuel efficiency, horse power, maximum speed data using standard sensors during various trips of mechacar and competitor cars.<br>
+We need to collect fuel efficiency, horse power, maximum speed data using standard sensors during various trips of MechaCar  and competitor cars.<br>
+
